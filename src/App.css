@@ -5,12 +5,40 @@
 ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 li {
+  text-align: center;
   list-style: none;
   margin: 8px;
   padding: 8px;
   border: whitesmoke 3px solid;
   border-radius: 8px;
+}
+
+h1 , h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+div.stats {
+  text-align: center;
+}
+
+div.team-stats {
+  text-align: center;
+}
+
+button.add-btn {
+  background-color: #646cff;
+  color: white;
+}
+
+button.remove-btn {
+  background-color: #ff0000;
+  color: white;
 }
